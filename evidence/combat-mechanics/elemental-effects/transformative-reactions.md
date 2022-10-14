@@ -1578,3 +1578,72 @@ Notice the hilichurl takes no burning dmg but still burns any grass it stepped o
 
 **Significance:**  
 Better understanding for the mechanics of burning. Dendro shields are be burnt down faster by 2B Pyro and 1A Pyro.
+
+### Dendro Burning Ownership Dmg
+
+**By:** Scavenger#6510  
+**Added:** 2022-10-13  
+[Discussion](https://tickets.deeznuts.moe/transcripts/dendro-burning-ownership-dmg)
+
+**Finding:** 
+Dendro burning 's ownership belong to the one who last applies the element for the reaction to happen.
+https://youtu.be/eg2jii5nQOM
+Notice the dmg difference when Bennet triggers the burning reaction and when DS triggers the burning reaction 
+
+**Evidence:**
+Burning can be changed ownership in the middle, either by directly reapplying dendro or pyro, or by spreading the pyro by swirling/absorbed pyro, nothing else. Ownership belongs to the one make that change. 
++ Pyro application taking ownership: https://youtu.be/UbnR5MF78Ck
++ Proves it is the latest application, not the highest damage: https://youtu.be/ZkP_DwLYIlU
++ Direct pyro swirl not taking ownership: https://youtu.be/H97iiAzWhKs
++ Dendro and self-applied pyro give ownership: https://youtu.be/JGOpFqoo2R0
+https://youtu.be/RCqKoUVKFjM
+- Absorbed pyro: https://youtu.be/j1NyUsX8GUE 
+- Swirling pyro: https://youtu.be/a-R7WsEKegA 
+
+https://www.youtube.com/watch?v=UbnR5MF78Ck
+pyro taking ownership
+
+https://www.youtube.com/watch?v=ZkP_DwLYIlU
+latest application even if lower
+
+https://www.youtube.com/watch?v=H97iiAzWhKs
+direct swirl no ownership
+
+https://www.youtube.com/watch?v=JGOpFqoo2R0
+
+
+https://www.youtube.com/watch?v=RCqKoUVKFjM
+
+LV and EM affect burning dmg, the dmg formula is shared with other transformative reactions, with the reaction constant/base multiplier of 0.5
+This finding has evidence go around this ticket, so I will reuse a video of what I think 's the most noticeable: https://youtu.be/j1NyUsX8GUE 
+The ratio of absorbed swirl dmg and burning dmg is exactly 2.4 if the base multiplier is 0.5 )
+
+https://www.youtube.com/watch?v=j1NyUsX8GUE
+
+Heating dmg = dendro burning's pyro dmg 
+Heat source = An object has heating dmg. 
+
+It looks like burning grass/torch/etc... at first glance, but burning in the environment depends solely on Zone Level, aka, the dmg zone the char's standing, not relating to lv and EM like heating dmg.
+
+When the dendro burning reaction happens, the burning entity should be considered as a heat source: Deal heating dmg to anyone who comes close in hug-range,  can apply pyro, can't cause a reaction.
+https://youtu.be/lWsO4g8bKSM
+Heat dmg dealt to us by the enemy: https://youtu.be/bh6jkNcccFo (notice how the burning tick rate's twice as fast (come from both theirs own burning and the heating dmg of the hilichurl) when coming closer to the hilichurl compared to stand afar) (edited)
+https://www.youtube.com/watch?v=bh6jkNcccFo
+
+  
+Dendro spread property deletes
+https://youtu.be/ve4noERYgi8
+https://youtu.be/FwCsLEBa5yY 
+https://youtu.be/UpBdYWyXpKo
+https://youtu.be/4dx9kHtpeR8 
+
+( potential bug) On an existing dendro burning, if applying dendro/pyro with different ownership right the moment the reaction ticks again, the ownership of the reaction won't change even if reapply element after that again.
+https://youtu.be/4dx9kHtpeR8 
+https://www.youtube.com/watch?v=UpBdYWyXpKo
+
+When attacked by pyro, the dendro vine will become a heat source, deal pyro dmg to any char come in touch range. Only be able to apply pyro to the char that isn't the one who applies pyro to the vine. Maybe a bug
+
+**Significance:** 
+Better understanding of how burning works by digging into whose ownership is it.
+
+Editors note: tested as of 2022-07-04
